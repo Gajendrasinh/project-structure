@@ -1,0 +1,97 @@
+<nav class="navbar navbar-inverse dhl-custom-navbar">
+    
+    <div class="navbar-header">
+        <a class="navbar-brand" href="#">
+            <img src="/assets/images/dhl_logo_kap.png" class="dhl-logo"/>
+                &nbsp; &nbsp;
+            <label class="dhl-brand">DHL Express</label>
+        </a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+        <li>
+            <a  href="javascript:void(0)">
+                <img src="/assets/images/advance-search.png" class="header-icons" ng-click="navigationClick($event,'home')"> 
+                Advance Search
+            </a>
+        </li>
+        <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)">
+                <img src="/assets/images/dashboard-type.png" class="header-icons" ng-click="navigationClick($event,'home')"> 
+                Personal View
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Page 1-1</a></li>
+              <li><a href="#">Page 1-2</a></li>
+              <li><a href="#">Page 1-3</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)">
+                <img src="/assets/images/notification.png" class="header-icons" ng-click="navigationClick($event,'home')"> 
+                Notification
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Page 1-1</a></li>
+                <li><a href="#">Page 1-2</a></li>
+                <li><a href="#">Page 1-3</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)">
+                <img src="/assets/images/user.png" class="header-icons" ng-click="navigationClick($event,'home')"> 
+                Gajendrasinh Zala
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Page 1-1</a></li>
+                <li><a href="#">Page 1-2</a></li>
+                <li><a href="#">Page 1-3</a></li>
+            </ul>
+        </li>
+    </ul>
+
+</nav>
+
+<nav class="navbar navbar-inverse dhl-custom-navbar">
+    <ul class="nav navbar-nav">
+        <li>
+            <a  routerLink="/dashboard" routerLinkActive="active">
+                Dashboard
+            </a>
+        </li>
+        <li>
+            <a  routerLink="/user-management" routerLinkActive="active">
+                 User Management
+            </a>
+        </li>
+        <li>
+            <a  routerLink="/availability" routerLinkActive="active">
+                Availability
+            </a>
+        </li>
+        <li>
+            <a  routerLink="/reporting" routerLinkActive="active">
+                Reporting
+            </a>
+        </li>
+        <li>
+            <a  routerLink="/reference" routerLinkActive="active">
+                Reference
+            </a>
+        </li>
+        <li>
+            <a  routerLink="/templates" routerLinkActive="active">
+                Templates
+            </a>
+        </li>
+        <li>
+            <a  routerLink="/workload" routerLinkActive="active">
+                Workload
+            </a>
+        </li>
+        <li>
+            <a  routerLink="/account-validation" routerLinkActive="active">
+                Account Validation
+            </a>
+        </li>
+    </ul>
+</nav>
